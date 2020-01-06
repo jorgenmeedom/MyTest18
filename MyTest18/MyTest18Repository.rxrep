@@ -1,0 +1,112 @@
+﻿<repository
+id="d1d81d26-0d3e-4532-bc8e-99b9fe65f897"
+name="MyTest18Repository">
+	<codegen
+	classname="MyTest18Repository"
+	namespace="MyTest18">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="bf09a20d-7899-48aa-9d57-00680383b5b6"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="db30444b-693d-42f6-b43d-10c8ab2b1fb4"
+		isrooted="True"
+		name="RxMainFrame"
+		refimgid="1ab83584-ba1f-4496-b008-fde5d6cd7f6c"
+		refpath="/form[@controlname='RxMainFrame']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<folder
+			addcaps="tabpage,control,nativewindow"
+			capname="tabpage"
+			id="98e55086-07c2-4b29-91fb-4a79d728d637"
+			isrooted="True"
+			name="RxTabIntroduction"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabIntroduction']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,control,nativewindow"
+				capname="button"
+				id="35ff453e-30ed-4293-8782-e3b87a03968d"
+				name="BtnSubmitUserName"
+				refimgid="cb824ecf-741a-41ad-af2f-20e88e3ec6ea"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage/button[@controlname='btnSubmitUserName']"
+				searchtimeout="30000ms">
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="3f02b71d-31f9-4537-a21a-e0555418c3a1"
+				name="LblWelcomeMessage"
+				refimgid="1e44b087-8bcb-45a4-a6a3-6fdf3b116305"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage/text[@controlname='lblWelcomeMessage']"
+				searchtimeout="30000ms">
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="e26f3d49-b5f8-4d07-aaa1-8dc59893f722"
+				name="TxtUserName"
+				refimgid="82731070-614b-46a4-9b8d-51c7d7f5ae37"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage/text[@controlname='txtUserName']"
+				searchtimeout="30000ms">
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='txtUserName']
+				</item>
+				<basepath>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@controlname='RxMainFrame']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAABmSURBVDhPY0AGwcHBMUFBQX+g+C8BvAeqDQKA
+AleBBqyDckkHQM3/QfQDdpG2+2zCC/FhsAZ0ADMASDACMTM+DNaADkAGwAwhC5CqGaj+B5QJAaMG
+jBoAAhQbEBgYqE+KIRADGBgAzwJlVAeWeWIAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,uiautomation,nativewindow,windowsapp"
+		capname="windowsapp"
+		id="349ef563-269c-4b91-89f2-28e2cbffbce6"
+		isrooted="True"
+		name="NyMeddelelse"
+		refpath="/winapp[@packagename='Microsoft.Windows.ShellExperienceHost']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="235304e6-16f6-4e8c-aedb-a80b325a9bc9"
+			name="VerbButton"
+			refimgid="5c05d27e-2a44-470f-837a-49d6b315d72b"
+			refpath="/winapp[@packagename='Microsoft.Windows.ShellExperienceHost']/form/button[@automationid='VerbButton']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.Windows.ShellExperienceHost']/?/?/button[@automationid='VerbButton']
+			</item>
+			<basepath>
+				/winapp[@packagename='Microsoft.Windows.ShellExperienceHost']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAABTSURBVDhPxY5BCgAgCAR7nf/3RYaHlZQOWlIL
+g2g5OIhIbugRZMPMhqYsiHECrRWw4wS7rPP4V2tKsIIZ6vsLAN7KFwD0vRdUwI4JTmKCG34LSCYc
+86HMBTwY0AAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
